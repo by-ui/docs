@@ -7,10 +7,18 @@
     <meta name="renderer" content="webkit">
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> -->
     <title>By-Ui</title>
-<link rel="shortcut icon" href="./favicon.ico"><link href="./vendors/library.a27b9c834354e6432eba.css" rel="stylesheet"><link href="./index.13811732c897db8196d6.css" rel="stylesheet"></head>
+    <script>
+        function toAnchor(target) {
+            let offsetTop = document.getElementById(target).offsetTop
+            scrollbar.scrollTo(0, offsetTop + 120, 800)
+            let url = window.location.href.split('#').length === 2 ? window.location.href + "#" + target : window.location.href.split('#')[0] + "#" + window.location.href.split('#')[1] + "#" + target;
+            history.pushState('', '', url);
+        }
+    </script>
+<link rel="shortcut icon" href="./favicon.ico"><link href="./vendors/library.a27b9c834354e6432eba.css" rel="stylesheet"><link href="./index.ca8aaa62874500d604bb.css" rel="stylesheet"></head>
 
 <body>
     <div id="by-ui"></div>
-<script type="text/javascript" src="./vendors/manifest.36fd67b24e53de57a457.js"></script><script type="text/javascript" src="./vendors/library.bbaafa05ac6047f6daec.js"></script><script type="text/javascript" src="./index.81a309741f6df71b8b5e.js"></script></body>
+<script type="text/javascript" src="./vendors/manifest.ffa15e89dfc1489b3131.js"></script><script type="text/javascript" src="./vendors/library.d8c06788501f25a2d074.js"></script><script type="text/javascript" src="./index.37bbd3d8f406301ba8ca.js"></script></body>
 
 </html>
